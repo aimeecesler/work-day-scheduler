@@ -1,6 +1,6 @@
 # WORK DAY SCHEDULER
 
-TEXT
+The purpose of this repository is to create an application to help track and schedule your daily work activities.
 
 -----
 
@@ -30,7 +30,7 @@ Edit using VSCode after [installation](#installation). HTML, JS and CSS files ar
 
 #### Javascript
 
-![JS]()
+![JS](javascript.png)
 
 -----
 
@@ -59,7 +59,7 @@ TEXT
 -----
 
 ## Credits
-TEXT
+As always, a huge thanks to our instructional staff for all their hard work!
 
 ### Resources:
 
