@@ -8,11 +8,10 @@ var timeRow = $("<div>").attr("class","row time-block");
 var hour = $("<div>").attr("class","hour col-sm-1");
 hour.text(hours[i]);
 var textArea = $("<textarea>").attr("class","col-sm-10");
-var saveBtn = $("<button>").attr("class","saveBtn col-sm-1");
+var saveBtn = $("<button>").attr("class","saveBtn col-sm-1 fa fa-save");
 timeRow.append(hour, textArea, saveBtn);
 timeContainer.append(timeRow);
 console.log(i);
 console.log(hours[i]);
 };
-
 });
