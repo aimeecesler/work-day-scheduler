@@ -9,7 +9,6 @@ $(document).ready(function () {
     var timeRow = $("<div>").addClass("row time-block");
     var hour = $("<div>").addClass("hour col-sm-1");
     hour.text(hours[i]);
-    console.log(moment().format("H"));
     var textArea = $("<textarea>").addClass("col-sm-10");
     if (currentHour == hours[i]) {
       textArea.addClass("present");
@@ -18,8 +17,14 @@ $(document).ready(function () {
     } else {
       textArea.addClass("future");
     }
-    var saveBtn = $("<button>").attr("class", "saveBtn col-sm-1 fa fa-save");
+    var saveBtn = $("<button>").addClass("saveBtn col-sm-1 fa fa-save");
+    saveBtn.attr("id",hours[i]);
     timeRow.append(hour, textArea, saveBtn);
     timeContainer.append(timeRow);
   }
+
+  $(document).on("click", ".saveBtn", function(){
+      console.log($(this).attr("id"));
+  })
+
 });
