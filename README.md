@@ -36,7 +36,9 @@ Edit using VSCode after [installation](#installation). HTML, JS and CSS files ar
 
 ## Building the Scheduler
 
-TEXT
+Building this scheduler was actually a lot more simple than I initially thought it would be. If I didn't know it before, this assignment has definitely proven to me that everyone has a different coding style and you can do the same thing in a million different ways.
+
+When using this scheduler, you will find that the date at the top of the page will automatically refresh to the current date. On the screen you will see dynamically generated rows for each hour of a standard business day. In each of these rows you will find an hour label, a text area and a save button. After entering text in the desired hour, you can then hit the save button of that row and your data will be saved in local storage for that row. You will find that after refreshing the page, your data will persist. You can clear your data by simply deleting your text and clicking save again. Another feature of this application is its dynamic styling. You will find that as the hours pass, they future hours will be colored green, the current hour will be red and previous hours will be gray.
 
 -----
 
