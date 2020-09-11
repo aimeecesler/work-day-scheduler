@@ -10,6 +10,8 @@ $(document).ready(function () {
     var hour = $("<div>").addClass("hour col-sm-1");
     hour.text(hours[i]);
     var textArea = $("<textarea>").addClass("col-sm-10");
+    textArea.attr("id",hours[i]);
+    textArea.text(localStorage.getItem(hours[i]));
     if (currentHour == hours[i]) {
       textArea.addClass("present");
     } else if (currentHour > hours[i]) {
@@ -24,7 +26,9 @@ $(document).ready(function () {
   }
 
   $(document).on("click", ".saveBtn", function(){
-      console.log($(this).attr("id"));
+      var btnID = $(this).attr("id");
+      var textValue = $(this).prev().val();
+      localStorage.setItem(btnID, textValue);
   })
 
 });
