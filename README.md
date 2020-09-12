@@ -4,7 +4,7 @@ The purpose of this repository is to create an application to help track and sch
 
 -----
 
-![SCHEDULER]()
+![SCHEDULER](scheduler.png)
 
 ## Table of Contents
 * [Installation](#installation)
