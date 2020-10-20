@@ -12,6 +12,7 @@ The purpose of this repository is to create an application to help track and sch
 * [Building the Scheduler](#building-the-scheduler)
 * [Acceptance Criteria](#acceptance-criteria)
 * [Credits](#credits)
+* [Contact] (#contact)
 * [Badges](#badges)
 * [Links](#Links)
 * [License](#license)
@@ -69,6 +70,12 @@ As always, a huge thanks to our instructional staff for all their hard work!
 * [Bootstrap CSS](https://getbootstrap.com/)
 * [jQuery](https://jquery.com/)
 * [Moment.js](https://momentjs.com/)
+
+-----
+
+## Contact
+Find me on LinkedIn!
+[Aimee Esler](https://www.linkedin.com/in/aimee-esler-3bb31288/)
 
 -----
 
